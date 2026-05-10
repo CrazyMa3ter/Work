@@ -18,9 +18,6 @@ release/
 
 # API Keys and credentials
 docs/WeatherApi.md
-docs/*Api*.md
-docs/*Credential*.md
-docs/*Key*.md
 
 # Local config files
 config.local.json
