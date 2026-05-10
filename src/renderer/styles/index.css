@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply m-0 p-0 overflow-hidden;
+    background: transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  #root {
+    @apply w-full h-full;
+    background: transparent;
+  }
+}
+
+@layer components {
+  .island-glass {
+    @apply backdrop-blur-xl bg-black/80 border border-white/10;
+  }
+
+  .island-glass-light {
+    @apply backdrop-blur-xl bg-white/80 border border-black/10;
+  }
+}
